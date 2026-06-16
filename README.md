@@ -57,14 +57,14 @@ Features include:
 
 ## Firmware Variants
 
-Two pre-built firmware variants are provided for the Pico, differing only in which button is used to activate layout/mode switching combos:
+Two pre-built firmware variants are provided, differing only in which button is used to activate layout/mode switching combos:
 
 | Variant | File | Mode switch button |
 | ------- | ---- | ------------------ |
-| `pico` | `HayBox-*-pico.uf2` | **MB1 (Start)** — default, standard for box-style controllers |
-| `pico_ms` | `HayBox-*-pico_ms.uf2` | **RF8 (MS)** — for WASD-style layouts where Start is used as the "Up" direction |
+| **Rana Moth** | `HayBox-*-rana_moth.uf2` | **MB1 (Start)** — standard for box-style controllers |
+| **Rana Moth WASD** | `HayBox-*-rana_moth_wasd.uf2` | **RF8 (MS)** — for WASD-style layouts where Start is used as the "Up" direction |
 
-Most box controller users should use `pico`. Choose `pico_ms` only if your layout uses Start as the W/Up direction (a WASD movement layout), where MS is free to serve as the mode-switch button instead. All other behaviour is identical between the two variants. Each variant stores its configuration separately in flash, so flashing one will not corrupt the saved config of the other.
+Most users should use **Rana Moth**. Choose **Rana Moth WASD** only if your layout uses Start as the W/Up direction, where MS is free to serve as the mode-switch button instead. All other behaviour is identical between the two variants. Each variant stores its configuration separately in flash, so flashing one will not corrupt the saved config of the other.
 
 ## Installation
 
@@ -159,7 +159,7 @@ you have to hold with one hand while plugging in.
 
 The default controller mode button combinations depend on which firmware variant you are using.
 
-**`pico` variant (standard) — mode switch button: MB1 (Start)**
+**Rana Moth (standard) — mode switch button: MB1 (Start)**
 - Start + MX + L - Melee mode (default)
 - Start + MX + Left - Project M/Project+ mode
 - Start + MX + Down - Ultimate mode
@@ -167,7 +167,7 @@ The default controller mode button combinations depend on which firmware variant
 - Start + MX + B - Rivals of Aether mode
 - Start + MX + R - Rivals of Aether 2 mode
 
-**`pico_ms` variant (WASD layouts) — mode switch button: RF8 (MS)**
+**Rana Moth WASD (WASD layouts) — mode switch button: RF8 (MS)**
 - MS + MX + L - Melee mode (default)
 - MS + MX + Left - Project M/Project+ mode
 - MS + MX + Down - Ultimate mode
@@ -176,8 +176,8 @@ The default controller mode button combinations depend on which firmware variant
 - MS + MX + R - Rivals of Aether 2 mode
 
 Default keyboard mode button combinations (only available when using DInput backend, **not** with XInput):
-- `pico`: Start + Mod Y + L - Default keyboard mode
-- `pico_ms`: MS + Mod Y + L - Default keyboard mode
+- Rana Moth: Start + Mod Y + L - Default keyboard mode
+- Rana Moth WASD: MS + Mod Y + L - Default keyboard mode
 
 ### Dolphin setup
 

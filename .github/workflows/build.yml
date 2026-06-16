@@ -15,9 +15,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - env: pico
+          - env: rana_moth
             bin_ext: uf2
-          - env: pico_ms
+          - env: rana_moth_wasd
             bin_ext: uf2
 
     steps:
