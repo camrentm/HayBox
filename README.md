@@ -59,10 +59,10 @@ Features include:
 
 Two pre-built firmware variants are provided, differing only in which button is used to activate layout/mode switching combos:
 
-| Variant | File | Mode switch button |
-| ------- | ---- | ------------------ |
-| **Rana Moth** | `HayBox-*-rana_moth.uf2` | **MB1 (Start)** — standard for box-style controllers |
-| **Rana Moth WASD** | `HayBox-*-rana_moth_wasd.uf2` | **RF8 (MS)** — for WASD-style layouts where Start is used as the "Up" direction |
+| Variant | Download | Mode switch button |
+| ------- | -------- | ------------------ |
+| **Rana Moth** | [HayBox-v3.2.0-Rana-Moth.uf2](https://github.com/camrentm/HayBox/releases/download/v3.2.0/HayBox-v3.2.0-Rana-Moth.uf2) | **MB1 (Start)** — standard for box-style controllers |
+| **Rana Moth WASD** | [HayBox-v3.2.0-Rana-Moth-WASD.uf2](https://github.com/camrentm/HayBox/releases/download/v3.2.0/HayBox-v3.2.0-Rana-Moth-WASD.uf2) | **RF8 (MS)** — for WASD-style layouts where Start is used as the "Up" direction |
 
 Most users should use **Rana Moth**. Choose **Rana Moth WASD** only if your layout uses Start as the W/Up direction, where MS is free to serve as the mode-switch button instead. All other behaviour is identical between the two variants. Each variant stores its configuration separately in flash, so flashing one will not corrupt the saved config of the other.
 
